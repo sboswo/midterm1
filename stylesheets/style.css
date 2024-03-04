@@ -1,0 +1,39 @@
+header {
+    background-color: #cad1d8;
+    font-size: 35px;
+}
+
+footer {
+    background-color: #cad1d8;
+    font-size: 35px;
+}
+
+li {
+    border: 5px solid;
+}
+
+div {
+    width: 19%;
+    text-align: center;
+    border: 2px solid;
+}
+
+div:hover {
+    border: 20px solid blue;
+}
+
+.special {
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+div:nth-child(2n) {
+    border: 10px dashed green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div:last-child {
+    font-family: inherit;
+    background-color: yellow;
+}
